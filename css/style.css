@@ -1,0 +1,141 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Roboto-Light"; src: url("../fonts/Roboto-Light.ttf"); }
+@font-face { font-family: "Roboto-Regular"; src: url("../fonts/Roboto-Regular.ttf"); }
+@font-face { font-family: "Roboto-Medium"; src: url("../fonts/Roboto-Medium.ttf"); }
+@font-face { font-family: "Roboto-Bold"; src: url("../fonts/Roboto-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { font-size: 10px; letter-spacing: 0.5px; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p { margin: 0; padding: 0; }
+a,
+a:hover,
+a:focus { text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus { outline: 0; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+body { background-color: #014131; }
+.row-no-gutters { margin: 0; }
+.row-no-gutters > [class*=col-] { padding: 0; }
+.border-1-white { border: 1px solid #f7f7f7; }
+.border-left-1-white { border-left: 1px solid #f7f7f7; }
+.border-bottom-0 { border-bottom: 0; }
+.border-left-0 { border-left: 0; }
+.border-right-0 { border-right: 0; }
+.border-top-0 { border-top: 0; }
+.border-radius-0 { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; }
+.full-width { width: 100%; }
+.btn-futudrill > a { background-color: transparent; border: 1px solid #ffffff; -webkit-box-shadow: 0px 4px 7px 0px #0141315e; -moz-box-shadow: 0px 4px 7px 0px #0141315e; -ms-box-shadow: 0px 4px 7px 0px #0141315e; -o-box-shadow: 0px 4px 7px 0px #0141315e; box-shadow: 0px 4px 7px 0px #0141315e; color: #ffffff; display: block; font: 1.6rem/1 "Roboto-Regular"; margin-bottom: 20px; padding: 10px 15px; text-align: center; width: 80%; }
+.btn-futudrill.full-width > a { width: 100%; }
+.btn-futudrill.active > a,
+.btn-futudrill > a:hover { background-color: #88f799; color: #ffffff; }
+.btn-futudrill-right > a { margin-left: auto; }
+.form-control-futudrill { max-height: 200px; overflow-y: auto; resize: none; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- New Stand Page Starts -------*/
+
+  /*------- Detailing Section Starts -------*/
+
+.bg-detailing { padding: 0; }
+.box-detailing { -webkit-align-items: center; align-items: center; background-color: #0ed0b8; border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-direction: column; height: calc(20vh - 24px); justify-content: space-evenly; min-height: 104px; padding: 10px; }
+.box-detailing-purple-heart { background-color: #673ab7; }
+.box-detailing-cerulean { background-color: #03a9f4; }
+.box-detailing:hover { background-color: #069b88; }
+.box-detailing > h4 { color: #ffffff; font: 1.6rem/1 "Roboto-Light"; margin-bottom: 10px; }
+.box-detailing > h2 { color: #ffffff; font: 3rem/1 "Roboto-Medium"; margin-bottom: 10px; }
+.box-detailing > h4:last-child { margin-bottom: 0; }
+.box-stand-undo-update { height: calc(20vh - 24px); min-height: 104px; padding: 7px; }
+.btn-new-stand { font: 1.2rem/1 "Roboto-Light"; letter-spacing: 0.5px; margin: 0 0 10px; text-transform: uppercase; }
+.btn-undo { font: 1.2rem/1 "Roboto-Light"; letter-spacing: 0.5px; margin: 0 0 10px; text-transform: uppercase; }
+.btn-update-path { font: 1.2rem/1 "Roboto-Light"; letter-spacing: 0.5px; text-transform: uppercase; }
+.row-box-string-depth { border-top: 1px solid #f7f7f7; }
+.box-string-depth,
+.box-remaining-string-depth,
+.box-stand-number { background-color: #068375; }
+.box-blank { background-color: #014131; border-bottom: 0; border-right: 0; }
+
+  /*------- Detailing Section Ends -------*/
+
+  /*------- Logo and Information Section Starts -------*/
+
+.bg-logo-info { padding: 0; }
+.box-logo-info { background-color: #0ed0b8; border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; min-height: 104px; padding: 10px; }
+.box-logo-info:hover { background-color: #069b88; }
+.logo-info > p { color: #f7f7f7; font: 1.6rem/1 "Roboto-Light"; margin-bottom: 10px; }
+.logo-info > p:last-child { margin-bottom: 0; }
+.logo-info > h2 { color: #ffffff; font: 2.4rem/1 "Roboto-Bold"; }
+.box-tre-scre-settings { padding: 7px; }
+.btn-trends,
+.btn-screens,
+.btn-settings { font: 1.2rem/1 "Roboto-Light"; letter-spacing: 0.5px; text-transform: uppercase; }
+.btn-trends,
+.btn-screens { margin-bottom: 10px; }
+
+  /*------- Logo and Information Section Ends -------*/
+
+/*------- New Stand Page Ends -------*/
+
+/*------- Print Setup Page Starts -------*/
+
+.box-print-setup,
+.box-well-setup { border: 1px solid #f7f7f7; padding: 20px; }
+.bg-light-green-btn-pg { background-color: #0ed0b8; }
+.row-no-gutters > [class*=col-].bg-light-green-btn-pg { padding: 25px 50px; }
+.box-print-setup > .btn-futudrill > a { margin: 0 auto 20px; }
+.box-print-setup > .btn-futudrill:last-child > a { margin: 0 auto; }
+.futudrill-top-left-heading > h3 { color: #ffffff; font: 2.4rem/1 "Roboto-Medium"; }
+.box-right-corner-detailing { background-color: #0ed0b8; border-bottom: 1px solid #f7f7f7; min-height: 104px; padding: 10px; }
+.box-right-corner-detailing:hover { background-color: #069b88; }
+.box-right-corner-detailing > h4 { color: #ffffff; font: 1.6rem/1 "Roboto-Light"; margin-bottom: 10px; }
+.box-right-corner-detailing > h2 { color: #ffffff; font: 3rem/1 "Roboto-Medium"; margin-bottom: 10px; }
+.box-right-corner-detailing > h4:last-child { margin-bottom: 0; }
+
+/*------- Print Setup Page Ends -------*/
+
+/*------- Well Setup Page Starts -------*/
+
+.box-well-setup > p { color: #ffffff; font: 1.8rem/1.2 "Roboto-Light"; margin-bottom: 5px; }
+.box-well-setup > p:last-of-type { margin-bottom: 30px; }
+.box-well-setup > p > span:first-child { width: 45%; }
+.box-well-setup > p > span:nth-child(2) { width: 5%; }
+.box-well-setup > p > span:last-child { width: 50%; }
+.box-well-setup > .btn-futudrill:last-child > a { margin-bottom: 0; }
+
+/*------- Well Setup Page Ends -------*/
+
+/*------- Chart Page Starts -------*/
+
+.box-chart { background-color: #ffffff; margin-top: 15px; padding: 15px; }
+.box-chart-info { background-color: #014131; box-shadow: 7px 7px 7px rgb(1 65 49 / 17%); padding: 15px; }
+.box-chart-info:hover { background-color: #00221e; }
+.chart-info > p { color: #ffffff; font: 1.6rem/1 "Roboto-Light"; margin-bottom: 10px; }
+.chart-info > p.red { color: #f00; }
+.chart-info > p.green { color: #00ff0a; }
+.chart-info > p.blue { color: #2196e7; }
+.chart-info > p.yellow { color: #e8ff00; }
+
+/*------- Chart Page Ends -------*/
+
+/*------- Remarks Page Starts -------*/
+
+.form-control-futudrill { background-color: #ffffff; border: 1px solid #000000; color: #000000; font: 1.6rem/1.4 "Roboto-Medium"; }
+.form-control-remarks { margin-bottom: 30px; }
+.btn-futudrill-advanced-remarks > a { margin-bottom: 0; }
+
+/*------- Remarks Page Ends -------*/

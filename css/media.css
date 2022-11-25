@@ -1,0 +1,217 @@
+@media only screen and (max-width: 575px) {
+
+/*------- Common CSS Starts -------*/
+
+.d-block-mob { display: block; }
+.width-50-per-mob { width: 50%; }
+.width-100-per-mob { width: 100%; }
+.border-top-1-mob { border-top: 1px solid #f7f7f7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- New Stand Page Starts -------*/
+
+  /*------- Detailing Section Starts -------*/
+
+.row-box-string-depth,
+.row-box-remaining-string-depth,
+.row-box-stand-number { border-left: 1px solid #f7f7f7; }
+.box-blank { border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; }
+.box-stand-undo-update { padding: 10px; }
+
+  /*------- Detailing Section Ends -------*/
+
+  /*------- Logo and Information Section Starts -------*/
+
+.bg-logo-info { padding: 15px 0 0; }
+.box-logo-info { border-top: 1px solid #f7f7f7; }
+.box-tre-scre-settings { padding: 10px; }
+
+  /*------- Logo and Information Section Ends -------*/
+
+/*------- New Stand Page Ends -------*/
+
+/*------- Print Setup Page Starts -------*/
+
+.box-print-setup { border: 1px solid #f7f7f7; padding: 20px; }
+.bg-light-green-btn-pg { background-color: #0ed0b8; }
+.row-no-gutters > [class*=col-].bg-light-green-btn-pg { padding: 20px; }
+.futudrill-top-left-heading > h3 { font-size: 1.8rem; }
+.btn-futudrill > a { width: 100%; }
+.box-right-corner-detailing { border-right: 1px solid #f7f7f7; }
+
+/*------- Print Setup Page Ends -------*/
+
+/*------- Well Setup Page Starts -------*/
+
+.box-well-setup > p > span:first-child { width: 55%; }
+.box-well-setup > p > span:nth-child(2) { width: 5%; }
+.box-well-setup > p > span:last-child { width: 39%; }
+
+/*------- Well Setup Page Ends -------*/
+
+/*------- Chart Page Starts -------*/
+
+.box-chart { margin-bottom: 20px; }
+
+/*------- Chart Page Ends -------*/
+
+/*------- Remarks Page Starts -------*/
+
+.form-control-remarks { margin-bottom: 20px; }
+
+/*------- Remarks Page Ends -------*/
+
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+.border-top-1-lg-mob { border-top: 1px solid #f7f7f7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- New Stand Page Starts -------*/
+
+  /*------- Detailing Section Starts -------*/
+
+.row-box-string-depth,
+.row-box-remaining-string-depth,
+.row-box-stand-number { border-left: 1px solid #f7f7f7; }
+.box-blank { border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; }
+.box-stand-undo-update { padding: 10px; }
+
+  /*------- Detailing Section Ends -------*/
+
+  /*------- Logo and Information Section Starts -------*/
+
+.bg-logo-info { padding: 15px 0 0; }
+.box-logo-info { border-top: 1px solid #f7f7f7; }
+.box-tre-scre-settings { padding: 10px; }
+
+  /*------- Logo and Information Section Ends -------*/
+
+/*------- New Stand Page Ends -------*/
+
+/*------- Print Setup Page Starts -------*/
+
+.box-print-setup { border: 1px solid #f7f7f7; padding: 20px; }
+.bg-light-green-btn-pg { background-color: #0ed0b8; }
+.row-no-gutters > [class*=col-].bg-light-green-btn-pg { padding: 20px; }
+.btn-futudrill > a { width: 100%; }
+.box-right-corner-detailing { border-right: 1px solid #f7f7f7; }
+
+/*------- Print Setup Page Ends -------*/
+
+/*------- Chart Page Starts -------*/
+
+.box-chart { margin-bottom: 20px; }
+
+/*------- Chart Page Ends -------*/
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.border-top-1-tab { border-top: 1px solid #f7f7f7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- New Stand Page Starts -------*/
+
+  /*------- Detailing Section Starts -------*/
+
+.row-box-string-depth,
+.row-box-remaining-string-depth,
+.row-box-stand-number { border-left: 1px solid #f7f7f7; }
+.box-blank { border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; }
+.box-stand-undo-update { padding: 10px; }
+
+  /*------- Detailing Section Ends -------*/
+
+  /*------- Logo and Information Section Starts -------*/
+
+.bg-logo-info { padding: 15px 0 0; }
+.box-logo-info { border-top: 1px solid #f7f7f7; }
+.box-tre-scre-settings { padding: 10px; }
+
+  /*------- Logo and Information Section Ends -------*/
+
+/*------- New Stand Page Ends -------*/
+
+/*------- Print Setup Page Starts -------*/
+
+.box-print-setup { border: 1px solid #f7f7f7; padding: 20px; }
+.bg-light-green-btn-pg { background-color: #0ed0b8; }
+.row-no-gutters > [class*=col-].bg-light-green-btn-pg { padding: 20px; }
+.btn-futudrill > a { padding: 10px; width: 100%; }
+.box-right-corner-detailing { border-right: 1px solid #f7f7f7; }
+
+/*------- Print Setup Page Ends -------*/
+
+/*------- Chart Page Starts -------*/
+
+.box-chart { margin-bottom: 20px; }
+
+/*------- Chart Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.border-top-1-md-tab { border-top: 1px solid #f7f7f7; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- New Stand Page Starts -------*/
+
+  /*------- Detailing Section Starts -------*/
+
+.row-box-string-depth,
+.row-box-remaining-string-depth,
+.row-box-stand-number { border-left: 1px solid #f7f7f7; }
+.box-blank { border-bottom: 1px solid #f7f7f7; border-right: 1px solid #f7f7f7; }
+.box-stand-undo-update { padding: 10px; }
+
+  /*------- Detailing Section Ends -------*/
+
+  /*------- Logo and Information Section Starts -------*/
+
+.bg-logo-info { padding: 15px 0 0; }
+.box-logo-info { border-top: 1px solid #f7f7f7; }
+.box-tre-scre-settings { padding: 10px; }
+
+  /*------- Logo and Information Section Ends -------*/
+
+/*------- New Stand Page Ends -------*/
+
+/*------- Print Setup Page Starts -------*/
+
+.box-print-setup { border: 1px solid #f7f7f7; padding: 20px; }
+.bg-light-green-btn-pg { background-color: #0ed0b8; }
+.row-no-gutters > [class*=col-].bg-light-green-btn-pg { padding: 20px; }
+.btn-futudrill > a { padding: 10px; width: 100%; }
+.box-right-corner-detailing { border-right: 1px solid #f7f7f7; }
+
+/*------- Print Setup Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1200px)  {
+
+/*------- Common CSS Starts -------*/
+
+.width-13-per { width: 13%; }
+.width-14-point-28-per { width: 14.28%; }
+.w-28-point-57 { width: 28.57%; }
+.width-87-per { width: 87%; }
+.mt-120-desk { margin-top: 120px; }
+.mt-180-desk { margin-top: 180px; }
+.mt-350-desk { margin-top: 350px; }
+
+/*------- Common CSS Ends -------*/  
+
+}
